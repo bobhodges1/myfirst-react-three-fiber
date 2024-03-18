@@ -1,1 +1,1 @@
-export const oneFullRotation = 2 * Math.PI;
+export const oneFullRotation = 4 * Math.PI;

@@ -5,7 +5,7 @@ export function SimpleBox(props: SimpleBoxProps) {
     return (
         <mesh position={props.pos}>
             <boxBufferGeometry />
-            <meshStandardMaterial color={"tomato"} />
+            <meshStandardMaterial color={"purple"} />
         </mesh>
     );
 }

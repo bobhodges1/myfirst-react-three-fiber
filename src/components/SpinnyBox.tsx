@@ -16,8 +16,10 @@ export function SpinnyBox(props: SpinnyBoxProps) {
             onClick={handleCubeClicked}
             rotation-y={rotationSteps * (oneFullRotation / 16)}
         >
+
             <boxBufferGeometry />
-            <meshStandardMaterial color={"white"} />
+            <meshStandardMaterial color={"red"} />
+            
         </mesh>
     );
 }

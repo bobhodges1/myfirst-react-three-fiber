@@ -4,6 +4,7 @@ import "./App.css";
 import { ChristmasTree } from "./ChristmasTree";
 import { SimpleBox } from "./SimpleBox";
 import { SpinnyBox } from "./SpinnyBox";
+import { Bubble } from "./bubble";
 
 /** A component demo'ing some react-three-fiber basics. */
 function App() {
@@ -25,9 +26,16 @@ function App() {
                 <pointLight position={[-3, 2, -3]} color={"blue"} />
 
                 <SimpleBox pos={[3, 0.5, 2]} />
+                <Bubble pos={[0, 2, 3]} color = {"green"} />
+                <Bubble pos={[5, 1, 4]} color ={"black"} />
+
+               
+                
 
                 <ChristmasTree pos={[-2, 0, -2]} />
                 <ChristmasTree pos={[3, 0, 0]} />
+                <ChristmasTree pos={[5, 4, 1]} />
+                
 
                 {/* some boxes that you can click on */}
                 <SpinnyBox pos={[1, 0.5, -5]} />
